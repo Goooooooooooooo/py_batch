@@ -5,6 +5,9 @@ import requests
 
 import config
 
+'''
+获取永住审查结果统计数据
+'''
 # 应用 ID
 appId = config.getConfigByKey('TOKYO_PR_DATA')['appId']
 
